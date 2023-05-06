@@ -15,5 +15,11 @@ public class J09_TreeMap {
         System.out.println(mp);
 
 //        baaki same functions of hashmap
+
+        int k=mp.getOrDefault("Seven",7);
+        System.out.println(k);
+
+        int b= mp.getOrDefault("One",45);
+        System.out.println(mp);
     }
 }
