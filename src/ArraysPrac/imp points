@@ -1,0 +1,4 @@
+swap in java = Collections.swap(<arraylist>,starting index,ending index);
+array ko arraylist me conversion = Arrays.asList(<arrname>);
+arraylist ko array me conversion = ya toh for loop se ya fer Object [] a=<listname>.toArray();
+String s="abc" ke case me character lene ho toh loop me s.charAt(i) krke krna hoga lekin arrays me s[i] krke access kr skte hai..
