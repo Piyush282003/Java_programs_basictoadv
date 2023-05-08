@@ -23,7 +23,7 @@ public class C67_Annotations {
     public static void main(String[] args) {
         NewPhone n = new NewPhone();
         n.on();
-        n.sum(5,6);                     //deprecated hai isliye line ayi hai
+        n.sum(5,6);                     //deprecated hai isliye line ayi hai,i.e,discourage kr rha hai intellijidea..
 
     }
 }
