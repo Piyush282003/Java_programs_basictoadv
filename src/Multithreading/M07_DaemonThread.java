@@ -15,6 +15,7 @@ public class M07_DaemonThread {
         System.out.println("Helo Piyush");
 //        Thread.currentThread().setDaemon(true);                //-->not possible
         Dae d=new Dae();
+//        d.start();                    //->setDaemon ko start ke baad nhi likh skte hai..
         d.setDaemon(true);
         d.start();
     }
