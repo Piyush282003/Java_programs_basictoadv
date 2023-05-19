@@ -39,6 +39,7 @@ public class M11_c_Licenseeg {
         m.start();
 
         m.join();              //main thread is waiting for medical thread to join
+        m.join(2000);              //main thread is waiting for medical thread to join but yeh 2sec krega and usme m ne kaam pura krlia toh theek vrna aage main execute hona start hojega..
 
         TestDriver td=new TestDriver();
         td.start();
