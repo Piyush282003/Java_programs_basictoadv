@@ -82,6 +82,10 @@ public class J07_Arrays_Class {
 
 //        ***************************************************************************************************************************
 
-
+        int b[]={1,2,34,5,6};
+        int c[]=Arrays.copyOf(b,b.length);
+        for(int i=0;i<c.length;i++){
+            System.out.println(c[i]);
+        }
     }
 }
