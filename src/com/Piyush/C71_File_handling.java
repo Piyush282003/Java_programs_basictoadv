@@ -9,8 +9,8 @@ public class C71_File_handling {
     public static void main(String[] args) throws IOException {
 //        CODE TO CREATE A NEW FILE:-
 
-        File f=new File("Piyush.txt");
-        f.createNewFile();
+//        File f=new File("Piyush.txt");
+//        f.createNewFile();
 
 //        OR
 //
@@ -32,17 +32,17 @@ public class C71_File_handling {
 //        *************************************************************************************************************************************
 
 ////        CODE TO READ A FILE:-
-//        File f=new File("Piyush.txt");
-//        Scanner sc=new Scanner(f);
-////        while(sc.hasNextLine()){
-////            String l =sc.nextLine();
-////            System.out.println(l);
-////        }
-//        while(sc.hasNext()){
-//            String l =sc.next();
-//            System.out.print(l+" ");
+        File f=new File("Piyush.txt");
+        Scanner sc=new Scanner(f);
+//        while(sc.hasNextLine()){
+//            String l =sc.nextLine();
+//            System.out.println(l);
 //        }
-//        sc.close();
+        while(sc.hasNext()){
+            String l =sc.next();
+            System.out.print(l+" ");
+        }
+        sc.close();
 
 
 //        *************************************************************************************************************************************
